@@ -7,18 +7,18 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Shawn Sun
+language: zh-Hans
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+# url: http://shawnsyx.top
+# permalink: :year/:month/:day/:title/
+# permalink_defaults:
+# pretty_urls:
+#   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+#   trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -102,7 +102,7 @@ theme: archer
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/Shawnsyx/shawnsyx.github.io.git
+  repository: git@github.com:Shawnsyx/shawnsyx.github.io.git
   branch: main
 
 jsonContent:
@@ -123,3 +123,5 @@ jsonContent:
     excerpt: false
     categories: true
     tags: true
+
+since: 2025
